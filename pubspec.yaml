@@ -1,0 +1,40 @@
+name: robotlearning
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  dotted_border: ^2.1.0
+  flutter_svg: ^2.0.5
+  dropdown_button2: ^2.1.4
+  badges: ^3.1.1
+  lottie: ^2.3.2
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/
+    - assets/icon/
+    - assets/lottie/
+  fonts: 
+    - family: Shabnam
+      fonts: 
+        - asset: assets/fonts/Shabnam.ttf
+        - asset: assets/fonts/Shabnam-Bold.ttf
+        - asset: assets/fonts/Shabnam-Light.ttf
+        - asset: assets/fonts/Shabnam-Medium.ttf
+        - asset: assets/fonts/Shabnam-Thin.ttf
+  uses-material-design: true
+
